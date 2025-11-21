@@ -1,6 +1,7 @@
 # Introduction
 
-CircPlex is a tool for reconstrcuting circular RNA sequence from Rolling Circle Amplification (RCA) long reads. The data and scripts for reproducing the results of the paper are available [here](https://github.com/Shao-Group/CircPlex-test).
+CircPlex is a tool for reconstrcuting circular RNA sequence from Rolling Circle Amplification (RCA) long reads. 
+<!-- The data and scripts for reproducing the results of the paper are available [here](https://github.com/Shao-Group/CircPlex-test). -->
 
 # Dependency
 

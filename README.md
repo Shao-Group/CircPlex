@@ -4,7 +4,7 @@ CircPlex is a tool for reconstrcuting circular RNA sequence from Rolling Circle 
 
 # Dependency
 
-CircPlex requires C++11, KMC (version 3.2.4), EquiRep (version 1.0.0) and Minimap2 (version 2.24) or later to compile and run successfully. Make sure your compiler supports C++11 by checking its version.
+CircPlex requires C++11, KMC (version 3.2.4), EquiRep (version 1.0.0) and minimap2 (version 2.24) or later to compile and run successfully. Make sure your compiler supports C++11 by checking its version.
 
 # Installation
 
@@ -36,9 +36,9 @@ from (https://github.com/refresh-bio/KMC).
 If EquiRep has not been downloaded/installed, install EquiRep
 [(license)](https://github.com/Shao-Group/EquiRep/blob/master/LICENSE) from (https://github.com/Shao-Group/EquiRep).
 
-# Install Minimap2
+# Install minimap2
 
-If Minimap2 has not been downloaded/installed, install Minimap2
+If minimap2 has not been downloaded/installed, install minimap2
 [(license)](https://github.com/lh3/minimap2/blob/master/LICENSE.txt) from (https://github.com/lh3/minimap2).
 
 # Usage
@@ -59,7 +59,7 @@ Arguments:
 
 `<equirep-path>` - Path to EquiRep executable directory.
 
-`<minimap2-path>` - Path to Minimap2 executable directory.
+`<minimap2-path>` - Path to minimap2 executable directory.
 
 # Running CircPlex on a small example
 

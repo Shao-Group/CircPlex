@@ -29,18 +29,15 @@ CircPLex uses KMC, EquiRep and Minimap2 as dependencies.
 
 # Install KMC
 
-If KMC has not been downloaded/installed, install KMC
-from (https://github.com/refresh-bio/KMC).
+To install KMC, visit (https://github.com/refresh-bio/KMC).
 
 # Install EquiRep
 
-If EquiRep has not been downloaded/installed, install EquiRep
-[(license)](https://github.com/Shao-Group/EquiRep/blob/master/LICENSE) from (https://github.com/Shao-Group/EquiRep).
+To install EquiRep [(license)](https://github.com/Shao-Group/EquiRep/blob/master/LICENSE), visit (https://github.com/Shao-Group/EquiRep).
 
 # Install minimap2
 
-If minimap2 has not been downloaded/installed, install minimap2
-[(license)](https://github.com/lh3/minimap2/blob/master/LICENSE.txt) from (https://github.com/lh3/minimap2).
+To install minimap2 [(license)](https://github.com/lh3/minimap2/blob/master/LICENSE.txt), visit (https://github.com/lh3/minimap2).
 
 # Usage
 

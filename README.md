@@ -29,7 +29,7 @@ CircPLex uses KMC, EquiRep and Minimap2 in its pipeline.
 # Install KMC
 
 If KMC has not been downloaded/installed, install KMC
-[(license)]() from (https://github.com/refresh-bio/KMC).
+from (https://github.com/refresh-bio/KMC).
 
 # Install EquiRep
 

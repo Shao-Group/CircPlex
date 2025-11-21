@@ -25,7 +25,7 @@ make
 ```
 The executable file `XXX` will appear at `src/XXX`. -->
 
-CircPLex uses KMC, EquiRep and Minimap2 in its pipeline.
+CircPLex uses KMC, EquiRep and Minimap2 as dependencies.
 
 # Install KMC
 

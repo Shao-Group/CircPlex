@@ -12,7 +12,7 @@
 # Arguments
 # ----------------------------
 if [ "$#" -ne 5 ]; then
-    echo "Usage: $0 <input.fasta/fastq> <outprefix> <kmc-path> <minimap2-path> <equirep-path>"
+    echo "Usage: $0 <input.fasta/fastq> <outprefix> <kmc-path> <equirep-path> <minimap2-path>"
     exit 1
 fi
 
@@ -176,7 +176,7 @@ info "[9/9] Combining predictions to generate final A.fasta..."
     "$WORKING_DIR/${INPUT_NAME}_predicted_A2_cigar_evaluation.log" \
     "$WORKING_DIR/${INPUT_NAME}_predicted_A1.fasta" \
     "$WORKING_DIR/${INPUT_NAME}_predicted_A2.fasta" \
-    "${OUTPREFIX}_circRNA_seqs.fasta" &>/dev/null
+    "${OUTPREFIX}_circRNA_seqs.fasta" "${OUTPREFIX}_circRNA_bsjs.tsv" &>/dev/null
 
 # ----------------------------
 # Cleanup working directory

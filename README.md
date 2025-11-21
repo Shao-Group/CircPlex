@@ -43,7 +43,7 @@ If minimap2 has not been downloaded/installed, install minimap2
 
 # Usage
 
-CircPlex processes an input FASTA/FASTQ file and generates an output FASTA file with the circular RNA seqeunces.
+CircPlex processes an input FASTA/FASTQ file and generates an output FASTA file with the circular RNA seqeunces and a TSV file with the circular RNA BSJs.
 
 The usage of CircPlex is:
 ```
@@ -53,7 +53,7 @@ Arguments:
 
 `<input_file>` - Path to the input FASTA/FASTQ file.
 
-`<output_file_prefix>` - Prefix for the output FASTA file.
+`<output_file_prefix>` - Prefix for the output FASTA file and the output BSJ file.
 
 `<kmc-path>` - Path to KMC excutables directory.
 
@@ -71,5 +71,5 @@ cd CircPlex
 ./CircPlex.sh input.fasta ./example/output <kmc-path> <equirep-path> <minimap2-path>
 ```
 
-An output file named `output_circRNA_seqs.fasta` will appear in the `example` directory.
+Two output files named `output_circRNA_seqs.fasta` and `output_circRNA_bsjs.tsv` will appear in the `example` directory.
 

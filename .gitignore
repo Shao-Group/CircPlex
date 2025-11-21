@@ -1,1 +1,6 @@
 example/output_circRNA_seqs.fasta
+src/calculate_cigar
+src/check_complexity
+src/combine
+src/find_A
+src/make_two_copy

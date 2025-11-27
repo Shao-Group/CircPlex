@@ -66,7 +66,7 @@ A small example of input data `input.fasta` is available in the `example` direct
 Commands to enter `example` directory and run CircPlex using `input.fasta` as input:
 ```
 cd CircPlex
-./CircPlex.sh input.fasta ./example/output <kmc-path> <equirep-path> <minimap2-path>
+./CircPlex.sh ./example/input.fasta ./example/output <kmc-path> <equirep-path> <minimap2-path>
 ```
 
 Two output files named `output_circRNA_seqs.fasta` and `output_circRNA_bsjs.tsv` will appear in the `example` directory.

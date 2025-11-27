@@ -59,7 +59,7 @@ Arguments:
 
 `<minimap2-path>` - Path to minimap2 executable directory.
 
-# Running CircPlex on a small example
+# Running CircPlex on a Small Example
 
 A small example of input data `input.fasta` is available in the `example` directory.
 

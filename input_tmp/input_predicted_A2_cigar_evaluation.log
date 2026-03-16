@@ -1,0 +1,25 @@
+>SRR10612066.9 9 length=1383 unitlength=293 lengthA=154
+cigar_match=120;120
+chr=3;3
+pos=1154788;1154788
+end=1154908;1154908
+>SRR10612066.484 484 length=4062 unitlength=537 lengthA=319
+cigar_match=85
+chr=6
+pos=105198216
+end=105219236
+>SRR10612066.585 585 length=3155 unitlength=398 lengthA=223
+cigar_match=428
+chr=GL000212.1
+pos=40604
+end=42077
+>SRR10612066.952 952 length=3244 unitlength=384 lengthA=225
+cigar_match=227;225
+chr=19;19
+pos=12687702;12687702
+end=12687926;12687924
+>SRR10612066.1282 1282 length=4395 unitlength=618 lengthA=370
+cigar_match=366;366
+chr=18;18
+pos=51979626;51979626
+end=51979989;51979989

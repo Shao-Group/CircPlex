@@ -1,0 +1,162 @@
+===== Reverse Complement Pair Analysis =====
+File: ./input_tmp/kmer_counts/SRR10612066.9_k10.txt
+Total kmers (count>=2): 256
+
+TTTGCCTGAA (4)	<->	TTCAGGCAAA (8)  => min=4
+TTTCCAGTCT (4)	<->	AGACTGGAAA (4)  => min=4
+TTTAGAAGTT (2)	<->	AACTTCTAAA (2)  => min=2
+TTGCCTGTAA (4)	<->	TTACAGGCAA (3)  => min=3
+TTGCCTGAAT (4)	<->	ATTCAGGCAA (8)  => min=4
+TTCCAGTCTC (4)	<->	GAGACTGGAA (4)  => min=4
+TTATCATTTG (5)	<->	CAAATGATAA (3)  => min=3
+TTAGAAGTTA (2)	<->	TAACTTCTAA (2)  => min=2
+TTACTTCTAC (2)	<->	GTAGAAGTAA (2)  => min=2
+TGGTAGAAGT (2)	<->	ACTTCTACCA (3)  => min=2
+TGGCTGTGGT (3)	<->	ACCACAGCCA (4)  => min=3
+TGGAAAGCAT (4)	<->	ATGCTTTCCA (4)  => min=4
+TGCTTTCCAG (4)	<->	CTGGAAAGCA (4)  => min=4
+TGCCTGTAAC (2)	<->	GTTACAGGCA (2)  => min=2
+TGCCTGAATG (4)	<->	CATTCAGGCA (8)  => min=4
+TGATAAGAGA (3)	<->	TCTCTTATCA (5)  => min=3
+TGAGACTGGA (4)	<->	TCCAGTCTCA (4)  => min=4
+TGAATGTACT (4)	<->	AGTACATTCA (5)  => min=4
+TCTTTAGAAG (2)	<->	CTTCTAAAGA (2)  => min=2
+TCTTATCATT (5)	<->	AATGATAAGA (3)  => min=3
+TCTCATCTCT (5)	<->	AGAGATGAGA (4)  => min=4
+TCTACCACAG (4)	<->	CTGTGGTAGA (3)  => min=3
+TCATTTGCCT (5)	<->	AGGCAAATGA (7)  => min=5
+TCATCTCTTA (5)	<->	TAAGAGATGA (3)  => min=3
+TCAGGCAAAT (8)	<->	ATTTGCCTGA (5)  => min=5
+TATTGCCTGT (4)	<->	ACAGGCAATA (3)  => min=3
+TATTACTTCT (2)	<->	AGAAGTAATA (2)  => min=2
+TATCATTTGC (5)	<->	GCAAATGATA (4)  => min=4
+TATATTGCCT (4)	<->	AGGCAATATA (3)  => min=3
+TATATTACTT (2)	<->	AAGTAATATA (2)  => min=2
+TAGAAGTAAT (2)	<->	ATTACTTCTA (2)  => min=2
+TACTTCTACC (3)	<->	GGTAGAAGTA (2)  => min=2
+TACCACAGCC (4)	<->	GGCTGTGGTA (3)  => min=3
+TACATTCAGG (7)	<->	CCTGAATGTA (4)  => min=4
+TACAGGCAAT (3)	<->	ATTGCCTGTA (4)  => min=3
+TAATATATTG (3)	<->	CAATATATTA (2)  => min=2
+GTCTCATCTC (4)	<->	GAGATGAGAC (4)  => min=4
+GTACATTCAG (5)	<->	CTGAATGTAC (4)  => min=4
+GTAATATATT (3)	<->	AATATATTAC (2)  => min=2
+GGCAATATAT (3)	<->	ATATATTGCC (3)  => min=3
+GGCAAATGAT (4)	<->	ATCATTTGCC (5)  => min=4
+GGAAAGCATG (4)	<->	CATGCTTTCC (4)  => min=4
+GCTTTCCAGT (4)	<->	ACTGGAAAGC (4)  => min=4
+GCTGTGGTAG (3)	<->	CTACCACAGC (4)  => min=3
+GCCTGTAACT (2)	<->	AGTTACAGGC (2)  => min=2
+GCCTGAATGT (4)	<->	ACATTCAGGC (8)  => min=4
+GCCATGCTTT (4)	<->	AAAGCATGGC (4)  => min=4
+GCATGGCTGT (3)	<->	ACAGCCATGC (4)  => min=3
+GCAATATATT (4)	<->	AATATATTGC (5)  => min=4
+GATGAGACTG (4)	<->	CAGTCTCATC (4)  => min=4
+GATAAGAGAT (3)	<->	ATCTCTTATC (5)  => min=3
+GACTGGAAAG (4)	<->	CTTTCCAGTC (4)  => min=4
+GAATGTACTT (4)	<->	AAGTACATTC (5)  => min=4
+GAAGTAATAT (2)	<->	ATATTACTTC (2)  => min=2
+GAAAGCATGG (4)	<->	CCATGCTTTC (4)  => min=4
+CTTTAGAAGT (2)	<->	ACTTCTAAAG (2)  => min=2
+CTTATCATTT (5)	<->	AAATGATAAG (3)  => min=3
+CTCTTATCAT (5)	<->	ATGATAAGAG (3)  => min=3
+CTCATCTCTT (5)	<->	AAGAGATGAG (3)  => min=3
+CCAGTCTCAT (4)	<->	ATGAGACTGG (4)  => min=4
+CCACAGCCAT (4)	<->	ATGGCTGTGG (3)  => min=3
+CATTTGCCTG (5)	<->	CAGGCAAATG (7)  => min=5
+CATGGCTGTG (3)	<->	CACAGCCATG (4)  => min=3
+CATCTCTTAT (5)	<->	ATAAGAGATG (3)  => min=3
+CAGGCAATAT (3)	<->	ATATTGCCTG (4)  => min=3
+CAGCCATGCT (4)	<->	AGCATGGCTG (4)  => min=4
+CAATATATTG (2)	<->	CAATATATTG (2)  => min=2
+ATGTACTTTT (2)	<->	AAAAGTACAT (5)  => min=2
+ATATATTACT (2)	<->	AGTAATATAT (3)  => min=2
+AGTCTCATCT (4)	<->	AGATGAGACT (4)  => min=4
+AGCCATGCTT (4)	<->	AAGCATGGCT (4)  => min=4
+AATGTACTTT (4)	<->	AAAGTACATT (5)  => min=4
+
+rev_kmer_count = 233, total_kmer_count = 857, ratio = 0.272, threshold = 0.050
+Decision: complex
+============================================
+
+===== Reverse Complement Pair Analysis =====
+File: ./input_tmp/kmer_counts/SRR10612066.9_k10.txt
+Total kmers (count>=2): 256
+
+TTTGCCTGAA (4)	<->	TTCAGGCAAA (8)  => min=4
+TTTCCAGTCT (4)	<->	AGACTGGAAA (4)  => min=4
+TTTAGAAGTT (2)	<->	AACTTCTAAA (2)  => min=2
+TTGCCTGTAA (4)	<->	TTACAGGCAA (3)  => min=3
+TTGCCTGAAT (4)	<->	ATTCAGGCAA (8)  => min=4
+TTCCAGTCTC (4)	<->	GAGACTGGAA (4)  => min=4
+TTATCATTTG (5)	<->	CAAATGATAA (3)  => min=3
+TTAGAAGTTA (2)	<->	TAACTTCTAA (2)  => min=2
+TTACTTCTAC (2)	<->	GTAGAAGTAA (2)  => min=2
+TGGTAGAAGT (2)	<->	ACTTCTACCA (3)  => min=2
+TGGCTGTGGT (3)	<->	ACCACAGCCA (4)  => min=3
+TGGAAAGCAT (4)	<->	ATGCTTTCCA (4)  => min=4
+TGCTTTCCAG (4)	<->	CTGGAAAGCA (4)  => min=4
+TGCCTGTAAC (2)	<->	GTTACAGGCA (2)  => min=2
+TGCCTGAATG (4)	<->	CATTCAGGCA (8)  => min=4
+TGATAAGAGA (3)	<->	TCTCTTATCA (5)  => min=3
+TGAGACTGGA (4)	<->	TCCAGTCTCA (4)  => min=4
+TGAATGTACT (4)	<->	AGTACATTCA (5)  => min=4
+TCTTTAGAAG (2)	<->	CTTCTAAAGA (2)  => min=2
+TCTTATCATT (5)	<->	AATGATAAGA (3)  => min=3
+TCTCATCTCT (5)	<->	AGAGATGAGA (4)  => min=4
+TCTACCACAG (4)	<->	CTGTGGTAGA (3)  => min=3
+TCATTTGCCT (5)	<->	AGGCAAATGA (7)  => min=5
+TCATCTCTTA (5)	<->	TAAGAGATGA (3)  => min=3
+TCAGGCAAAT (8)	<->	ATTTGCCTGA (5)  => min=5
+TATTGCCTGT (4)	<->	ACAGGCAATA (3)  => min=3
+TATTACTTCT (2)	<->	AGAAGTAATA (2)  => min=2
+TATCATTTGC (5)	<->	GCAAATGATA (4)  => min=4
+TATATTGCCT (4)	<->	AGGCAATATA (3)  => min=3
+TATATTACTT (2)	<->	AAGTAATATA (2)  => min=2
+TAGAAGTAAT (2)	<->	ATTACTTCTA (2)  => min=2
+TACTTCTACC (3)	<->	GGTAGAAGTA (2)  => min=2
+TACCACAGCC (4)	<->	GGCTGTGGTA (3)  => min=3
+TACATTCAGG (7)	<->	CCTGAATGTA (4)  => min=4
+TACAGGCAAT (3)	<->	ATTGCCTGTA (4)  => min=3
+TAATATATTG (3)	<->	CAATATATTA (2)  => min=2
+GTCTCATCTC (4)	<->	GAGATGAGAC (4)  => min=4
+GTACATTCAG (5)	<->	CTGAATGTAC (4)  => min=4
+GTAATATATT (3)	<->	AATATATTAC (2)  => min=2
+GGCAATATAT (3)	<->	ATATATTGCC (3)  => min=3
+GGCAAATGAT (4)	<->	ATCATTTGCC (5)  => min=4
+GGAAAGCATG (4)	<->	CATGCTTTCC (4)  => min=4
+GCTTTCCAGT (4)	<->	ACTGGAAAGC (4)  => min=4
+GCTGTGGTAG (3)	<->	CTACCACAGC (4)  => min=3
+GCCTGTAACT (2)	<->	AGTTACAGGC (2)  => min=2
+GCCTGAATGT (4)	<->	ACATTCAGGC (8)  => min=4
+GCCATGCTTT (4)	<->	AAAGCATGGC (4)  => min=4
+GCATGGCTGT (3)	<->	ACAGCCATGC (4)  => min=3
+GCAATATATT (4)	<->	AATATATTGC (5)  => min=4
+GATGAGACTG (4)	<->	CAGTCTCATC (4)  => min=4
+GATAAGAGAT (3)	<->	ATCTCTTATC (5)  => min=3
+GACTGGAAAG (4)	<->	CTTTCCAGTC (4)  => min=4
+GAATGTACTT (4)	<->	AAGTACATTC (5)  => min=4
+GAAGTAATAT (2)	<->	ATATTACTTC (2)  => min=2
+GAAAGCATGG (4)	<->	CCATGCTTTC (4)  => min=4
+CTTTAGAAGT (2)	<->	ACTTCTAAAG (2)  => min=2
+CTTATCATTT (5)	<->	AAATGATAAG (3)  => min=3
+CTCTTATCAT (5)	<->	ATGATAAGAG (3)  => min=3
+CTCATCTCTT (5)	<->	AAGAGATGAG (3)  => min=3
+CCAGTCTCAT (4)	<->	ATGAGACTGG (4)  => min=4
+CCACAGCCAT (4)	<->	ATGGCTGTGG (3)  => min=3
+CATTTGCCTG (5)	<->	CAGGCAAATG (7)  => min=5
+CATGGCTGTG (3)	<->	CACAGCCATG (4)  => min=3
+CATCTCTTAT (5)	<->	ATAAGAGATG (3)  => min=3
+CAGGCAATAT (3)	<->	ATATTGCCTG (4)  => min=3
+CAGCCATGCT (4)	<->	AGCATGGCTG (4)  => min=4
+CAATATATTG (2)	<->	CAATATATTG (2)  => min=2
+ATGTACTTTT (2)	<->	AAAAGTACAT (5)  => min=2
+ATATATTACT (2)	<->	AGTAATATAT (3)  => min=2
+AGTCTCATCT (4)	<->	AGATGAGACT (4)  => min=4
+AGCCATGCTT (4)	<->	AAGCATGGCT (4)  => min=4
+AATGTACTTT (4)	<->	AAAGTACATT (5)  => min=4
+
+rev_kmer_count = 233, total_kmer_count = 857, ratio = 0.272, threshold = 0.050
+Decision: complex
+============================================
+

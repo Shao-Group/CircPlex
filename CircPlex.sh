@@ -182,7 +182,7 @@ info "[9/9] Combining predictions to generate final A.fasta..."
 # Cleanup working directory
 # ----------------------------
 info "Cleaning up temporary files..."
-rm -rf "$WORKING_DIR"
+# rm -rf "$WORKING_DIR"
 
 info "✅ Pipeline completed successfully!"
 info "Final outputs are prefixed by: $OUTPREFIX"

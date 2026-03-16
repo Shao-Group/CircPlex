@@ -1,0 +1,30 @@
+===== Reverse Complement Pair Analysis =====
+File: ./input_tmp/kmer_counts/SRR10612066.6_k10.txt
+Total kmers (count>=2): 506
+
+TGCTGATCAG (2)	<->	CTGATCAGCA (13)  => min=2
+TGCCGATCGG (2)	<->	CCGATCGGCA (17)  => min=2
+TGATCAGCAG (2)	<->	CTGCTGATCA (2)  => min=2
+GCTGATCAGC (2)	<->	GCTGATCAGC (2)  => min=2
+GCCGATCGGC (2)	<->	GCCGATCGGC (2)  => min=2
+CTCCCGGGAG (12)	<->	CTCCCGGGAG (12)  => min=12
+
+rev_kmer_count = 22, total_kmer_count = 3283, ratio = 0.007, threshold = 0.050
+Decision: simple
+============================================
+
+===== Reverse Complement Pair Analysis =====
+File: ./input_tmp/kmer_counts/SRR10612066.6_k10.txt
+Total kmers (count>=2): 506
+
+TGCTGATCAG (2)	<->	CTGATCAGCA (13)  => min=2
+TGCCGATCGG (2)	<->	CCGATCGGCA (17)  => min=2
+TGATCAGCAG (2)	<->	CTGCTGATCA (2)  => min=2
+GCTGATCAGC (2)	<->	GCTGATCAGC (2)  => min=2
+GCCGATCGGC (2)	<->	GCCGATCGGC (2)  => min=2
+CTCCCGGGAG (12)	<->	CTCCCGGGAG (12)  => min=12
+
+rev_kmer_count = 22, total_kmer_count = 3283, ratio = 0.007, threshold = 0.050
+Decision: simple
+============================================
+

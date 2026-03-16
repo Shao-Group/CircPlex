@@ -13,6 +13,17 @@ string extract_readname(const string &line) {
     return s.substr(0, pos);
 }
 
+int extract_lengthA(const string& line)
+{
+    size_t pos = line.find("lengthA=");
+    if (pos == std::string::npos) return -1;  // not found
+
+    pos += 8;  // move past "lengthA="
+    size_t end = line.find_first_not_of("0123456789", pos);
+
+    return std::stoi(line.substr(pos, end - pos));
+}
+
 // Split a semicolon-separated string into ints
 vector<int> split_ints(const string &s) {
     vector<int> v;
@@ -37,6 +48,7 @@ vector<string> split_strs(const string &s) {
 // Cigar info for one read
 struct CigarInfo {
     vector<int> cigar_match;
+    int lenA;
     vector<string> chr;
     vector<int> start;
     vector<int> end;
@@ -60,11 +72,13 @@ unordered_map<string, CigarInfo> load_cigar(const string &file) {
         if (line[0] == '>') {
             if (!current.empty()) mp[current] = info; // save previous
             current = extract_readname(line);
+            lengthA = extract_lengthA(line);
             if (!seen_reads.count(current)) {
                 seen_reads.insert(current);
                 read_order.push_back(current);
             }
             info = CigarInfo(); // reset
+            info.lenA = lengthA;
         } else if (line.find("cigar_match=") != string::npos) {
             string s = line.substr(line.find('=')+1);
             info.cigar_match = split_ints(s);
@@ -146,7 +160,9 @@ int main(int argc, char *argv[]) {
         int idx = -1;
 
         if (max1 >= 0 && max2 >= 0) {
-            if (max1 >= max2) { useA1 = true; idx = distance(c1.cigar_match.begin(), max_element(c1.cigar_match.begin(), c1.cigar_match.end())); }
+            int diff1 = abs(max1 - c1.lenA);
+            int diff2 = abs(max2 - c2.lenA);
+            if (diff1 <= diff2) { useA1 = true; idx = distance(c1.cigar_match.begin(), max_element(c1.cigar_match.begin(), c1.cigar_match.end())); }
             else             { useA1 = false; idx = distance(c2.cigar_match.begin(), max_element(c2.cigar_match.begin(), c2.cigar_match.end())); }
         } else if (max1 >= 0) { useA1 = true; idx = distance(c1.cigar_match.begin(), max_element(c1.cigar_match.begin(), c1.cigar_match.end())); }
         else if (max2 >= 0) { useA1 = false; idx = distance(c2.cigar_match.begin(), max_element(c2.cigar_match.begin(), c2.cigar_match.end())); }

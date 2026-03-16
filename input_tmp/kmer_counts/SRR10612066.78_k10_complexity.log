@@ -1,0 +1,20 @@
+===== Reverse Complement Pair Analysis =====
+File: ./input_tmp/kmer_counts/SRR10612066.78_k10.txt
+Total kmers (count>=2): 265
+
+CTTCTAGAAG (2)	<->	CTTCTAGAAG (2)  => min=2
+
+rev_kmer_count = 2, total_kmer_count = 863, ratio = 0.002, threshold = 0.050
+Decision: simple
+============================================
+
+===== Reverse Complement Pair Analysis =====
+File: ./input_tmp/kmer_counts/SRR10612066.78_k10.txt
+Total kmers (count>=2): 265
+
+CTTCTAGAAG (2)	<->	CTTCTAGAAG (2)  => min=2
+
+rev_kmer_count = 2, total_kmer_count = 863, ratio = 0.002, threshold = 0.050
+Decision: simple
+============================================
+
